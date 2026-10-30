@@ -1,0 +1,14 @@
+node_modules/
+miniprogram_npm/
+project.private.config.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+预览码*.png
+体验版二维码*.png
+.codex-backups/

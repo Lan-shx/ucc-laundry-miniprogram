@@ -1,0 +1,13 @@
+{
+  "appid": "wx330d54f5770a7310",
+  "projectname": "ucc-laundry",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "minifyWXML": true
+  },
+  "libVersion": "3.5.0"
+}

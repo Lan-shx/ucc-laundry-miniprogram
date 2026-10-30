@@ -1,0 +1,79 @@
+/* Store owner surfaces share the customer navigation scale and blue accent. */
+.owner-wrap{padding-bottom:calc(156rpx + env(safe-area-inset-bottom))}
+button.quick-open{display:flex;align-items:center;justify-content:center;gap:16rpx;width:100%;margin:0;box-sizing:border-box;min-height:100rpx;font-weight:600}
+.quick-open-icon{width:36rpx;height:36rpx;flex:none}
+.task-grid{display:flex;flex-wrap:wrap;justify-content:space-between;margin-top:24rpx}
+button.task-button{display:flex;flex-direction:column;align-items:flex-start;gap:18rpx;width:calc(50% - 9rpx);margin:0 0 18rpx;background:#fff;color:#17233c;box-sizing:border-box;min-width:0;min-height:176rpx;padding:26rpx;font-weight:600;text-align:left;white-space:normal}
+.task-top{display:flex;align-items:center;justify-content:space-between;width:100%;gap:12rpx}
+.task-icon{width:46rpx;height:46rpx;flex:none}
+.task-count{font-size:36rpx;line-height:1.2;font-weight:700;color:#63748d;font-variant-numeric:tabular-nums;word-break:break-all}
+.task-count.has-tasks{color:#1b57c5}
+.task-refresh{display:flex;align-items:center;justify-content:space-between;gap:16rpx;min-height:76rpx}
+button.text-action{flex:none;background:transparent;color:#245bc1;padding:12rpx 0;margin:0;font-size:24rpx;line-height:1.5;white-space:nowrap;min-height:64rpx}
+.owner-menu{background:#fff;border-radius:20rpx;overflow:hidden}
+button.owner-menu-item{display:flex;align-items:center;gap:20rpx;width:100%;box-sizing:border-box;min-height:112rpx;padding:24rpx 28rpx;background:#fff;border-radius:0;text-align:left;color:#17233c;white-space:normal}
+.owner-menu-item + .owner-menu-item{border-top:1rpx solid #e7edf4}
+.owner-menu-item .name{font-size:28rpx;line-height:1.5}
+.menu-arrow{flex:none;color:#63748d;font-size:36rpx;font-weight:400;line-height:1}
+.menu-icon{width:42rpx;height:42rpx;flex:none}
+button.profile-header{display:flex;align-items:center;gap:26rpx;width:calc(100% + 60rpx);margin:-30rpx -30rpx 24rpx;box-sizing:border-box;min-height:232rpx;padding:42rpx 30rpx;background:#fff;border-radius:0;text-align:left;color:#17233c;white-space:normal}
+.profile-avatar{width:120rpx;height:120rpx;flex:none;border-radius:18rpx;background:#edf3ff}
+.profile-name{font-size:34rpx;font-weight:700;line-height:1.5;word-break:break-word}
+.profile-role{color:#63748d;font-size:25rpx;line-height:1.5;margin-top:10rpx;font-weight:400}
+.profile-group{margin:0 -30rpx 22rpx;background:#fff}
+.profile-group .owner-menu-item{padding-left:32rpx;padding-right:32rpx}
+.profile-group .grow{font-size:29rpx;line-height:1.5;font-weight:400}
+.help-content .name{margin-top:28rpx;margin-bottom:10rpx}
+.help-content .name:first-child{margin-top:0}
+.owner-order-status{display:flex;align-items:center;margin-bottom:22rpx}
+.owner-order-status .heading{margin:0;font-size:34rpx}
+.order-info-heading{display:flex;align-items:center;gap:16rpx;min-width:0}
+.order-info-heading .name{flex:none;white-space:nowrap}
+.order-short-number{flex:1;min-width:0;word-break:break-all;text-align:right}
+.owner-wrap .card .row{flex-wrap:wrap}
+.owner-wrap .card .row>text{min-width:0;word-break:break-word}
+.edit-columns{display:flex;align-items:center;gap:12rpx;color:#63748d;font-size:24rpx}
+.edit-columns>text:not(.grow){width:110rpx;flex:none;text-align:center}
+.owner-wrap .edit .grow{word-break:break-word}
+.owner-wrap checkbox-group label{display:flex;align-items:center;line-height:1.6}
+.owner-wrap checkbox{flex:none}
+.owner-nav button.nav-item[disabled],.task-button[disabled],.owner-menu-item[disabled]{opacity:.6}
+.price-title{margin-top:8rpx}
+.price-toolbar{display:flex;gap:16rpx;margin:24rpx 0}
+.price-toolbar button{flex:1;min-width:0;margin:0}
+.price-manager{display:flex;align-items:flex-start;gap:18rpx;min-width:0}
+.price-category-list{width:176rpx;max-height:65vh;flex:none;background:#eaf0f8;border-radius:16rpx;overflow:hidden}
+button.price-category{display:block;box-sizing:border-box;width:100%;min-height:98rpx;margin:0;border-radius:0;padding:20rpx 14rpx;background:transparent;text-align:left;font-size:25rpx;line-height:1.5;color:#526681;white-space:normal;word-break:break-word}
+button.price-category.active{background:#fff;color:#1b57c5;font-weight:700}
+.category-count{display:block;font-size:22rpx;font-weight:400}
+.price-product-list{flex:1;min-width:0}
+button.price-product{display:flex;align-items:center;gap:16rpx;box-sizing:border-box;width:100%;margin:0 0 16rpx;padding:22rpx 18rpx;background:#fff;text-align:left;color:#17233c;white-space:normal}
+.price-product .name{font-size:27rpx;line-height:1.5;word-break:break-word}
+.price-product .price{font-size:25rpx;line-height:1.5;margin-top:6rpx}
+.price-product .pic{width:70rpx;height:70rpx}
+.price-empty{padding:34rpx 12rpx;text-align:center}
+.price-empty button{margin-top:20rpx;font-size:25rpx}
+.price-hint{margin-top:24rpx}
+button.form-save{width:100%;margin:28rpx 0 0;box-sizing:border-box}
+.customer-profile{display:flex;align-items:center;gap:26rpx;margin:-30rpx -30rpx 24rpx;padding:42rpx 30rpx;min-height:148rpx;background:#fff}
+.customer-avatar{display:flex;align-items:center;justify-content:center;flex:none;width:120rpx;height:120rpx;background:#edf3ff;border-radius:18rpx}
+.customer-avatar image{width:68rpx;height:68rpx}
+.intake-row{display:flex;align-items:center;gap:10rpx;margin:16rpx 0}
+.intake-row .grow{font-size:25rpx;word-break:break-word}
+.intake-row input{box-sizing:border-box;width:100rpx;min-width:0;height:80rpx;padding:0 10rpx;border:1rpx solid #d7e0ec;border-radius:10rpx;font-size:25rpx}
+button.remove-item{width:64rpx;flex:none;padding:14rpx 0;margin:0;background:transparent;color:#ad3c30;font-size:22rpx}
+.remove-column{width:64rpx;flex:none}
+.add-intake{padding:20rpx;background:#edf3ff;color:#245bc1;border-radius:12rpx;text-align:center;margin:20rpx 0}
+.intake-toggle{font-size:24rpx;margin-top:18rpx}
+.agreement{display:flex;align-items:center;line-height:1.6;margin:20rpx 0;font-size:25rpx}
+.agreement checkbox{flex:none}
+.evidence-photo{width:150rpx;height:150rpx;margin:16rpx 12rpx 16rpx 0;border-radius:12rpx}
+.case-record{margin-top:24rpx;padding-top:20rpx;border-top:1rpx solid #e7edf4}
+.case-record button{margin-top:14rpx}
+.privacy-copy .name{margin:24rpx 0 12rpx}
+.privacy-copy .name:first-child{margin-top:0}
+.owner-wrap .card{word-break:break-word}
+.extra-tasks{display:flex;gap:16rpx;margin:8rpx 0 20rpx}
+.extra-tasks button{flex:1;margin:0;font-size:25rpx}
+
+.owner-wrap button.danger{color:#ad3c30}
